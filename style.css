@@ -16,6 +16,9 @@ section{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 36px;
+}
 p{
     color: dimgray;
 }
@@ -27,6 +30,9 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+}
+.top-banner .half-width{
+    margin-top: 70px;
 }
 .half-width img{
     width: 100%;
@@ -47,7 +53,7 @@ p{
 .experience-box{
     box-shadow: 10px 10px 40px grey;
     border-radius: 5px;
-    height: 50%;
+    height: 40%;
     background-color: white;
     padding: 30px 20px;
 }
@@ -55,6 +61,7 @@ p{
     background-image: url("img/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: 50px;
 }
 #experienced-experience{
     border-left: 7px solid;
