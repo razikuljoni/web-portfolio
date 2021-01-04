@@ -7,6 +7,7 @@ body{
 }
 section{
     height: 600px;
+    margin-bottom: 150px;
 }
 .top-banner{
     background-image: url("img/top-banner.png");
@@ -15,16 +16,19 @@ section{
 h1{
     font-size: 50px;
 }
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: orange;
 }
-.first-half{
+.half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.first-half img{
+.half-width img{
     width: 100%;
 }
 .link-btn{
@@ -34,4 +38,9 @@ h1{
     font-weight: 700;
     padding: 10px 20px;
     border-radius: 10px;
+}
+.dream-area{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
